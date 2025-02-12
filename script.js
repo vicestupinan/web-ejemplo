@@ -62,3 +62,26 @@ console.log(person.lastName)
 console.log(person.links[0])
 
 // ---------------------------------------------------------------
+
+// Funciones
+
+// Funcion expresada
+const sum = (parameter1, parameter2, parameter3) => {
+    console.log(parameter1)
+    console.log(parameter2)
+    console.log(parameter3)
+    return parameter1 + parameter2 + parameter3
+}
+
+const p1 = 3
+const p2 = 2
+const p3 = 3
+
+console.log(sum(p1, p2, p3))
+
+// Funcion declarada   
+function subtract(parameter1, parameter2) {
+    return parameter1 - parameter2
+}
+
+console.log(subtract(p1, p2))
